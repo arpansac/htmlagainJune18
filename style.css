@@ -1,0 +1,72 @@
+
+/*css uses selectors for tags, classes and ids*/
+body{
+	background-color: blue;
+}
+
+
+/* this will change the style of all the a tags */
+a{
+	color: #e62020f7;
+}
+
+
+h1{
+	font-size: 35px;
+    border: 5px dashed darkred;
+    margin: 37px 81px 121px 63px;
+    padding: 18px;
+    font-family: sans-serif;
+}
+
+
+/* classes are accessed by '.' before the classname */
+.italic-tags{
+		font-style: italic;
+}
+
+
+/* ids are accessed by '#' before the classname */
+#greenbg{
+	background-color: green;
+}
+
+.blue-bg{
+	background-color: blue;
+}
+
+
+#inline-block-display{
+	display: inline-block;
+	width: 100px;
+}
+
+
+/* :hover is a pseudo class, try to run it! */
+h1:hover{
+	text-decoration: underline;
+	font-size: 55px;
+}
+
+
+/*make the list to display horizontal*/
+.horizontal-list{
+	list-style: none;
+}
+
+
+
+/* access all children elements by a space after the tag name or the class name */
+/* another example to this would be  ul li {} */
+.horizontal-list li{
+	display: inline-block;
+}
+
+
+/*Hoping this helps!*/
+
+
+
+
+
+
